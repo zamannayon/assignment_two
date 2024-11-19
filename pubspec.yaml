@@ -1,0 +1,40 @@
+name: assignment_two
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions,
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below.
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^4.0.3
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# Flutter-specific settings
+flutter:
+  uses-material-design: true
+
+  # Assets used in the project
+  assets:
+    - assets/images/
+
+  # Custom fonts (e.g., Google Fonts) should not include "fonts" unless used locally.
+  # Removed misaligned example related to fonts.
